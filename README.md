@@ -86,7 +86,7 @@ The phone hotspot was only used as a local Wi-Fi access point. The ESP32 and lap
 
 ### Results
 
-| Test | Avg signal (RSSI) | Avg packet loss | Range across 3 runs | Longest dropout |
+| Test | Avg signal (RSSI) | % of all packets lost | Range across 3 runs | Longest dropout |
 |---|---|---|---|---|
 | 2 m | -64.7 dBm | 0.4% | 0 to 1.2% | 0.36 s |
 | 5 m | -75.8 dBm | 0.1% | 0 to 0.2% | 0.13 s |
