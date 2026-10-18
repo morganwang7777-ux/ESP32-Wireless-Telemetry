@@ -103,7 +103,7 @@ The phone hotspot was only used as a local Wi-Fi access point. The ESP32 and lap
 
 ### What I found
 
-- **Up to 15 m with line of sight, the link was solid:** 0.4% loss or less.
+- **At most positions up to 15 m, the link was solid:** 0.4% loss or less. The exception was one 10 m spot that averaged 12% loss.
 - **Losses come in bursts, not evenly.** In the bad runs, some seconds received all 17 packets and others received none. The longest gap was 5.8 s. On a car that means seconds of missing data.
 - **Loss goes up sharply once the signal gets weak.** The two worst runs averaged below -80 dBm and lost 37% and 77% of packets. Runs that lost 6 to 20% averaged around -72 to -77 dBm but had moments where the signal dipped to between -83 and -90 dBm.
 - **Placement mattered more than distance.** My 10 m spot did worse than 15 m, and the 5 m door spot had a stronger signal than the open 5 m spot. Reflections and what is in the path change the signal more than a few extra metres.
